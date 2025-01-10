@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setBackgroundResource(imatge);
 
         vflipper.addView(imageView);
-        vflipper.setFlipInterval(2500);
+        vflipper.setFlipInterval(1500);
         vflipper.setAutoStart(true);
 
     }
